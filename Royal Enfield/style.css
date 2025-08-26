@@ -1,0 +1,354 @@
+.navbar{
+    background-color: white;
+    box-shadow: 2px 2px 5px gray;
+    padding: 15px;
+    /* border: 1px solid red; */
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.container-fluid{
+    width: 98%;
+}
+
+.navbar img{
+    height: 20px;
+}
+
+.fix{
+    background-color: black;
+    box-shadow:  2px 2px 5px gray;
+    color: white;
+    position: fixed;
+    z-index: 4;
+    margin-top: 51px;
+    margin-left: -50px;
+    padding: 10px;
+    width: 180px;
+    transform: rotate(270deg);
+}
+
+.logo img{
+    display: flex;
+    position: fixed;
+    z-index: 5;
+    bottom: 30px;
+    right: 30px;
+    height: 50px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 100%;
+}
+
+.dropdown-menu{
+    border: none;
+}
+
+.dropdown .dropdown-menu{
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.nav-item .nav-link{
+    line-height: 1px;
+    font-size: 17px;
+}
+
+.carousel-item .first_1{
+    height: 88vh;
+    background-image: url('/image/bg_1.avif');
+    background-size: cover;
+}
+
+.carousel-item .first_2{
+    height: 88vh;
+    background-image: url('/image/bg_2.avif');
+    background-size: cover;
+}
+
+.carousel-item .first_3{
+    height: 88vh;
+    background-image: url('/image/bg_3.jpg');
+    background-size: cover;
+}
+
+.first img{
+    width: 25%;
+    padding: 0%;
+    background-size: cover;
+}
+
+.first .h6 a{
+    text-decoration: none;
+    color: white;
+}
+
+.first .h6 a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.first .first_2 img{
+    width: 100%;
+    height: 75vh;
+    background-image: url('/image/bg_11.jpg');
+    background-size: cover;
+}
+
+.first .first_3 img{
+    width: 100%;
+    height: 75vh;
+    background-image: url('/image/bg_12.jpg');
+    background-size: cover;
+}
+
+.first .first_4 img{
+    width: 100%;
+    height: 75vh;
+    background-image: url('/image/bg_2.avif');
+    background-size: cover;
+}
+
+.first .first_5 img{
+    width: 100%;
+    height: 75vh;
+    background-image: url('/image/bg_13.avif');
+    background-size: cover;
+}
+
+.first .first_6 img{
+    width: 100%;
+    height: 75vh;
+    background-image: url('/image/bg_14.avif');
+    background-size: cover;
+}
+
+.second{
+    background-color: rgb(226, 226, 226); 
+    padding: 5px;
+}
+
+.second .row{
+    gap: 10px;
+    margin: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.second .col{
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+
+.second h6 a{
+    font-size: 18px;
+    color: rgb(63, 63, 63);
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.second h6 a:hover{
+    color: black;
+}
+
+.second_1{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.second_1 a i{
+    font-size: 35px;
+    color: black;
+    padding: 12px;
+}
+
+
+.join .icons a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.join .icons a:hover{
+    color: rgb(63, 63, 63);
+}
+
+footer{
+    background-color: rgb(226, 226, 226);
+    padding: 20px;
+}
+
+.footer{
+    gap: 60px;
+}
+
+.footer h5{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    margin-left: -30px;
+    line-height: 200%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer li a:hover{
+    color: rgb(185, 9, 9);
+}
+
+footer p{
+    font-size: 15px;
+}
+
+footer p a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+footer p a:hover{
+    color: rgb(79, 79, 79);
+}
+
+@media (max-width: 769px) {
+    .navbar img{
+        height: 18px;
+    }
+
+    .nav-item .nav-link{
+        line-height: 1px;
+        font-size: 16px;
+    }
+    
+    .nav-item .nav-link ul li{
+        line-height: 1px;
+        font-size: 16px;
+    }
+
+    .first .h6{
+        font-size: 12px;
+    }
+    
+    
+}
+
+
+@media (max-width: 426px) {
+    .nav-item .nav-link{
+        margin-top: 10px;
+    }
+    
+    .fix{
+        width: 140px;
+        margin-top: 30px;
+        margin-left: -40px;
+    }
+
+    .fix h5{
+        font-size: 14px;
+    }
+
+    .fix h6{
+        font-size: 12px;
+    }
+
+    .carousel-item .first_1{
+        height: 88vh;
+        background-image: url('/image/bg_1_1.avif');
+        background-size: cover;
+    }
+    
+    .carousel-item .first_2{
+        height: 88vh;
+        background-image: url('/image/bg_2_2.avif');
+        background-size: cover;
+    }
+    
+    .carousel-item .first_3{
+        height: 88vh;
+        background-image: url('/image/bg_3_3.jpg');
+        background-size: cover;
+    }
+
+    .first .row img{
+        width: 50%;
+        padding: 0%;
+        /* background-size: cover; */
+    }
+
+    .first .h4{
+        font-size: 14px;
+    }
+
+    .first .h6{
+        font-size: 8px;
+    }
+
+    .first .first_2 img{
+        width: 100%;
+        height: 80vh;
+        background-image: url('/image/bg_11_1.webp');
+        background-size: cover;
+    }
+
+    .first .first_3 img{
+        width: 100%;
+        height: 80vh;
+        background-image: url('/image/bg_12_1.webp');
+        background-size: cover;
+    }
+    
+    .first .first_4 img{
+        width: 100%;
+        height: 80vh;
+        background-image: url('/image/bg_2_2.avif');
+        background-size: cover;
+    }
+
+    .first .first_5 img{
+        width: 100%;
+        height: 80vh;
+        background-image: url('/image/bg_13_1.avif');
+        background-size: cover;
+    }
+
+    .first .first_6 img{
+        width: 100%;
+        height: 80vh;
+        background-image: url('/image/bg_14_1.avif');
+        background-size: cover;
+    }
+
+    .card .row img{
+        width: 50%;
+        padding: 0%;
+        /* background-size: cover; */
+    }
+
+    .footer{
+        gap: 20px;
+    }
+
+    .footer .h5{
+        font-size: 10px;
+    }
+    
+    .footer li a{
+        font-size: 8.6px;
+        line-height: 1;
+    }
+
+    footer p{
+        font-size: 8px;
+    }
+}
